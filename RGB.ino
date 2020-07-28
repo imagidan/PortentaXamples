@@ -3,7 +3,7 @@
   July 28th, 2020
   by Daniel Danaie
   
-  Edit from this example:
+  This file is an edit from this example:
   AnalogWrite for each LED on the Portenta H7
   July 27th, 2020
   by Jeremy Ellis
