@@ -30,7 +30,7 @@ void SetRGB(int r, int g, int b, int state){
   SetColor(LEDB, b, previousMillisB, state);
 }
 
-// Set Color (R, G or B) by setting digital write to high more often or less often since pmw does not work
+// Set Color (R, G or B) by setting digital write to high more often or less often since analogWrite does not seem to be working for this
 void SetColor(int myPin, int myPWM, unsigned long &myMillis, int &myState){
   unsigned long currentMillis = micros();
   
